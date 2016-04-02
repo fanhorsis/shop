@@ -1,15 +1,12 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	margin: 0;
 }
 body {
 	font: normal 400 13px/1.25 Arial,sans-serif;
 }
-.header {
-	height: 100px;
-	width: 100%;
-	position: relative;
-}
+
 .context {
 	position: relative;
 	width: 980px;
@@ -63,4 +60,28 @@ body {
 	display: inline-block;
 	width: 800px;
 	font-size: 12px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+header.header {
+	font-family: "Gill Sans MT Pro Cyr W04 Light";
+	display: block;
+}
+.top-header {
+	width: 100%;
+    height: 26px;
+    background: #f0f0f0;
+    line-height: 27px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+.top-header-link {
+	margin-left: 100px;
+}
+.city {
+	float: right;
+	margin-right: 20px;
 }
